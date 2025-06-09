@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Power Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🔆 Solar Power Prediction</h1>
+        <p>Enter the environmental conditions to predict solar power output.</p>
+
+        <div class="card">
+            <label>☀️ Radiation (W/m²):</label>
+            <input type="number" id="radiation" placeholder="Enter radiation value">
+
+            <label>🌞 Sunshine (hours):</label>
+            <input type="number" id="sunshine" placeholder="Enter sunshine hours">
+
+            <label>🌡️ Air Temperature (°C):</label>
+            <input type="number" id="airTemp" placeholder="Enter temperature">
+
+            <label>💧 Relative Air Humidity (%):</label>
+            <input type="number" id="humidity" placeholder="Enter humidity level">
+
+            <button onclick="predictPower()">⚡ Predict</button>
+
+            <div id="loading" class="hidden">⏳ Predicting...</div>
+            <h2 id="result"></h2>
+            <p id="error" class="error"></p>
+        </div>
+    </div>
+</body>
+</html>
