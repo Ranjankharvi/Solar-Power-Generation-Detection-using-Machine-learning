@@ -60,6 +60,8 @@ The dataset (Solar Power Plant Data.csv) contains environmental parameters such 
 
 ⚡ System Production (Target Variable)
 
+
+
 🚀 How to Run the Project
 🔧 1. Clone the repository
 git clone https://github.com/Ranjankharvi/Solar-Power-Generation-Detection-using-Machine-learning.git
@@ -67,9 +69,6 @@ cd Solar-Power-Generation-Detection-using-Machine-learning
 
 📦 2. Install dependencies
 pip install -r requirements.txt
-
-
-(If requirements.txt is not available, install manually:)
 
 pip install flask xgboost pandas scikit-learn
 
