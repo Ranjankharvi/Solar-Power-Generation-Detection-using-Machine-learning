@@ -77,3 +77,6 @@ python app.py
 
 🌐 4. Open in browser
 http://127.0.0.1:5000/
+
+<img width="1558" height="1104" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/a63b0373-6320-4db7-ab2b-1e5a0efb3de8" />
+
